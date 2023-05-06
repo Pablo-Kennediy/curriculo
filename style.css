@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+picture{
+    width: 250px;
+}
+picture img{
+    width: 100%;
+    border-radius: 200px;
+}
