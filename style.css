@@ -2,10 +2,41 @@
     margin: 0;
     padding: 0;
 }
-picture{
-    width: 250px;
-}
 picture img{
-    width: 100%;
+    display: block;
+    max-width: 200px;
     border-radius: 200px;
+    box-shadow: 15px 13px 25px;
+    margin-bottom: 25px;
+}
+picture#logoPK img{
+    max-width: 320px;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 25px;
+}
+section{
+    max-width: 280px;
+    margin: auto;
+    padding: 25px;
+}
+ul{
+    columns: 1;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    border: solid black 1px;
+    columns: 1;
+}
+aside{
+    max-width: 380px;
+    margin: auto;
+}
+aside p{
+    margin: 5px;
+}
+ul#links{
+    columns: 3;
 }
