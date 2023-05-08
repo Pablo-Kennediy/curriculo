@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+main{
+    padding: 25px;
+}
 picture img{
     display: block;
     max-width: 200px;
@@ -10,10 +13,13 @@ picture img{
     margin-bottom: 25px;
 }
 picture#logoPK img{
-    max-width: 320px;
+    width: 100%;
     margin: auto;
     margin-bottom: 25px;
     border-radius: 25px;
+}
+ul#picturePerfil{
+    max-width: 300px;
 }
 section{
     max-width: 280px;
@@ -29,6 +35,7 @@ li{
     margin: 10px;
     border: solid black 1px;
     columns: 1;
+    padding: 10px;
 }
 aside{
     max-width: 380px;
@@ -38,5 +45,19 @@ aside p{
     margin: 5px;
 }
 ul#links{
+    display: flex;
     columns: 3;
+    background: white;
+}
+ul#links img{
+    width: 50px;
+    margin: 25px;
+}
+.aspectos{
+   display: flex;
+   padding: 25px;
+}
+.aspectosOFoxing{
+    width: 120px;
+    margin: auto;
 }
