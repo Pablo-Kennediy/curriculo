@@ -36,9 +36,6 @@ picture#logoTwitter img{
     width: 50px;
     margin: auto;
 }
-ul#picturePerfil{
-    max-width: 300px;
-}
 section{
     max-width: 280px;
     margin: auto;
@@ -64,6 +61,7 @@ aside p{
 }
 ul#links{
     display: flex;
+    flex-wrap: wrap-reverse;
     columns: 3;
     background: white;
 }
@@ -76,7 +74,7 @@ ul#links img{
    padding: 25px;
 }
 .aspectosOFoxing{
-    width: 120px;
+    
     margin: auto;
 }
 li#netlix{
