@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
 main{
     padding: 25px;
 }
@@ -17,6 +20,21 @@ picture#logoPK img{
     margin: auto;
     margin-bottom: 25px;
     border-radius: 25px;
+}
+picture#logoNetflix img{
+    display: block;
+    width: 50px;
+    margin: auto;
+}
+picture#bugdroid img{
+    display: block;
+    width: 50px;
+    margin: auto;
+}
+picture#logoTwitter img{
+    display: block;
+    width: 50px;
+    margin: auto;
 }
 ul#picturePerfil{
     max-width: 300px;
@@ -60,4 +78,7 @@ ul#links img{
 .aspectosOFoxing{
     width: 120px;
     margin: auto;
+}
+li#netlix{
+    display: flex;
 }
