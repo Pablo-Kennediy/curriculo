@@ -6,7 +6,8 @@ h1{
     font-family: 'Times New Roman', Times, serif;
 }
 main{
-    padding: 25px;
+    margin: 25px;
+    background-color: rgb(218, 226, 170);
 }
 picture img{
     display: block;
