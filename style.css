@@ -5,9 +5,14 @@
 h1{
     font-family: 'Times New Roman', Times, serif;
 }
+body{
+    background-color: rgb(188, 207, 134);
+}
 main{
     margin: 25px;
-    background-color: rgb(218, 226, 170);
+    background-color: rgb(172, 177, 147);
+    box-shadow: 15px 13px 25px;
+    border-radius: 20px;
 }
 picture img{
     display: block;
@@ -16,11 +21,15 @@ picture img{
     box-shadow: 15px 13px 25px;
     margin-bottom: 25px;
 }
+picture#PERFIL img{
+    margin: 25px;
+}
 picture#logoPK img{
     width: 100%;
     margin: auto;
-    margin-bottom: 25px;
-    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
 picture#logoNetflix img{
     display: block;
@@ -41,6 +50,9 @@ section{
     max-width: 280px;
     margin: auto;
     padding: 25px;
+}
+section p{
+    font-family: Arial, Helvetica, sans-serif;
 }
 ul{
     columns: 1;
@@ -64,7 +76,9 @@ ul#links{
     display: flex;
     flex-wrap: wrap-reverse;
     columns: 3;
-    background: white;
+    background-color: rgb(188, 207, 134);
+    box-shadow: -10px -10px 25px;
+    border-radius: 25px;
 }
 ul#links img{
     width: 50px;
@@ -75,7 +89,7 @@ ul#links img{
    padding: 25px;
 }
 .aspectosOFoxing{
-    
+    width: 200px;
     margin: auto;
 }
 li#netlix{
