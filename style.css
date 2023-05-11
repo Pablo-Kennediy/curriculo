@@ -76,13 +76,13 @@ ul#picturePerfil{
     max-width: 320px;
 }
 aside{
-    max-width: 380px;
-    margin: auto;
+    display: flex;
 }
 aside p{
     margin: 5px;
 }
 ul#links{
+    margin: auto;
     display: flex;
     flex-wrap: wrap-reverse;
     columns: 3;
@@ -98,7 +98,7 @@ ul#links img{
    padding: 25px;
 }
 .aspectosOFoxing{
-    width: 200px;
+    max-width: 200px;
     margin: auto;
 }
 li#netlix{
