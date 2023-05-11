@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: url(fundoMadeira.jpg) no-repeat;
+    background-size: cover;
+}
 h1{
     font-family: 'Times New Roman', Times, serif;
 }
-body{
-    background-color: rgb(188, 207, 134);
-}
 main{
     margin: 25px;
-    background-color: rgb(172, 177, 147);
+    background-color: rgba(163, 153, 133, 0.671);
     box-shadow: 15px 13px 25px;
     border-radius: 20px;
 }
@@ -51,6 +52,10 @@ section{
     margin: auto;
     padding: 25px;
 }
+section#intro p{
+    font-family:cursive;
+    font-size: larger;
+}
 section p{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -61,9 +66,14 @@ li{
     list-style-type: none;
     text-align: center;
     margin: 10px;
-    border: solid black 1px;
+    box-shadow: 10px 10px 25px;
+    border-radius: 25px;
     columns: 1;
     padding: 10px;
+}
+ul#picturePerfil{
+    display: block;
+    max-width: 320px;
 }
 aside{
     max-width: 380px;
@@ -76,8 +86,7 @@ ul#links{
     display: flex;
     flex-wrap: wrap-reverse;
     columns: 3;
-    background-color: rgb(188, 207, 134);
-    box-shadow: -10px -10px 25px;
+    box-shadow: 10px 10px 25px;
     border-radius: 25px;
 }
 ul#links img{
