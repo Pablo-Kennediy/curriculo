@@ -82,6 +82,12 @@ ul#links{
     box-shadow: 10px 10px 25px;
     border-radius: 25px;
 }
+ul#links h1{
+    box-shadow: 10px 10px 25px;
+    border-radius: 25px;
+    margin: 25px;
+    padding: 25px;
+}
 ul#links img{
     width: 50px;
     margin: 25px;
