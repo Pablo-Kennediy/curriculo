@@ -69,25 +69,15 @@ ul#picturePerfil{
 }
 aside{
     display: flex;
+    padding: 25px;
+    box-shadow: 10px 10px 25px;
+    border-radius: 25px;
 }
 aside p{
     margin: 5px;
 }
-ul#links{
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap-reverse;
-    columns: 3;
-    box-shadow: 10px 10px 25px;
-    border-radius: 25px;
-}
-ul#links h1{
-    box-shadow: 10px 10px 25px;
-    border-radius: 25px;
-    margin: 25px;
-    padding: 25px;
-}
-ul#links img{
+aside img{
+    display: block;
     width: 50px;
     margin: 25px;
 }
