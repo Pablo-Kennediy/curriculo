@@ -61,6 +61,7 @@ li{
     margin: 10px;
     box-shadow: 10px 10px 25px;
     border-radius: 25px;
+    margin: 25px;
 }
 ul#picturePerfil{
     display: block;
@@ -82,11 +83,16 @@ aside picture img{
    display: flex;
    padding: 25px;
 }
-.aspectosOFoxing{
+.projetos{
     margin: auto;
+    padding: 25px;
+}
+.projetos h1{
+    margin: 5px;
 }
 button{
     display: flex;
     margin: auto;
     border-radius: 25px;
+    margin-bottom: 25px;
 }
