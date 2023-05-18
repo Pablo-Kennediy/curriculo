@@ -20,6 +20,7 @@ picture img{
     max-width: 200px;
     border-radius: 200px;
     box-shadow: 15px 13px 25px;
+    margin: auto;
     margin-bottom: 25px;
 }
 picture#PERFIL img{
@@ -60,26 +61,22 @@ li{
     margin: 10px;
     box-shadow: 10px 10px 25px;
     border-radius: 25px;
-    columns: 1;
-    padding: 10px;
 }
 ul#picturePerfil{
     display: block;
     max-width: 320px;
 }
 aside{
-    display: flex;
     padding: 25px;
     box-shadow: 10px 10px 25px;
     border-radius: 25px;
 }
 aside p{
-    margin: 5px;
+    padding: 5px;
 }
-aside img{
+aside picture img{
     display: block;
     width: 50px;
-    margin: 25px;
 }
 .aspectos{
    display: flex;
@@ -87,7 +84,6 @@ aside img{
 }
 .aspectosOFoxing{
     margin: auto;
-
 }
 button{
     display: flex;
