@@ -52,9 +52,6 @@ section{
     margin: auto;
     padding: 25px;
 }
-ul{
-    columns: 1;
-}
 li{
     list-style-type: none;
     text-align: center;
@@ -62,6 +59,12 @@ li{
     box-shadow: 10px 10px 25px;
     border-radius: 25px;
     margin: 25px;
+}
+ul{
+    columns: 1;
+}
+li#pontosFortes{
+    font-size: larger;
 }
 ul#picturePerfil{
     display: block;
