@@ -48,12 +48,10 @@ picture#logoTwitter img{
     max-width: 50px;
     margin: auto;
 }
-section{
+section#intro{
+    font-size: larger;
     margin: auto;
     padding: 25px;
-}
-ul{
-    columns: 1;
 }
 li{
     list-style-type: none;
@@ -63,14 +61,22 @@ li{
     border-radius: 25px;
     margin: 25px;
 }
+ul{
+    columns: 1;
+}
+li#pontosFortes{
+    font-size: larger;
+}
 ul#picturePerfil{
     display: block;
     max-width: 320px;
 }
 aside{
+    max-width: 350px;
     padding: 25px;
     box-shadow: 10px 10px 25px;
     border-radius: 25px;
+    margin-bottom: 50px;
 }
 aside p{
     padding: 5px;
