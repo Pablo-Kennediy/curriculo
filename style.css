@@ -11,12 +11,9 @@ body{
 main{
     margin: 25px;
     padding: 25px;
-    background-color: rgba(163, 153, 133, 0.671);
-    box-shadow: 15px 13px 25px;
-    border-radius: 20px;
 }
 picture img{
-    display: block;
+    display: inline-block;
     max-width: 200px;
     border-radius: 200px;
     box-shadow: 15px 13px 25px;
@@ -25,6 +22,10 @@ picture img{
 }
 picture#PERFIL img{
     margin: 25px;
+}
+picture#links img{
+    width: 50px;
+    margin: auto;
 }
 picture#logoPK img{
     width: 100%;
@@ -38,19 +39,20 @@ picture#logoNetflix img{
     max-width: 50px;
     margin: auto;
 }
-picture#bugdroid img{
-    display: block;
-    max-width: 50px;
-    margin: auto;
-}
-picture#logoTwitter img{
-    display: block;
-    max-width: 50px;
-    margin: auto;
+button picture img{
+    width: 50px;
 }
 section{
+    background-color: rgba(163, 153, 133, 0.671);
+    box-shadow: 15px 13px 25px;
+    border-radius: 20px;
     margin: auto;
     padding: 25px;
+}
+section h1 {
+    display: block;
+    font-size: larger;
+    text-align: center;
 }
 ul{
     columns: 1;
@@ -67,32 +69,13 @@ ul#picturePerfil{
     display: block;
     max-width: 320px;
 }
-aside{
-    padding: 25px;
-    box-shadow: 10px 10px 25px;
-    border-radius: 25px;
-}
-aside p{
-    padding: 5px;
-}
-aside picture img{
-    display: block;
-    width: 50px;
-}
-.aspectos{
-   display: flex;
-   padding: 25px;
-}
-.projetos{
-    margin: auto;
-    padding: 25px;
-}
-.projetos h1{
-    margin: 5px;
-}
 button{
     display: flex;
     margin: auto;
     border-radius: 25px;
     margin-bottom: 25px;
+}
+footer{
+    text-align: center;
+    background-color: darkgoldenrod;
 }
