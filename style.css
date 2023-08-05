@@ -43,7 +43,7 @@ button picture img{
     width: 50px;
 }
 section{
-    background-color: rgba(163, 153, 133, 0.671);
+    background-color: rgba(163, 153, 133, 0.411);
     box-shadow: 15px 13px 25px;
     border-radius: 20px;
     margin: auto;
@@ -51,23 +51,13 @@ section{
 }
 section h1 {
     display: block;
-    font-size: larger;
+    font-family: monospace;
+    font-size: xxx-large;
     text-align: center;
+    color: rgb(105, 46, 12);
 }
-ul{
-    columns: 1;
-}
-li{
-    list-style-type: none;
-    text-align: center;
-    margin: 10px;
-    box-shadow: 10px 10px 25px;
-    border-radius: 25px;
-    margin: 25px;
-}
-ul#picturePerfil{
-    display: block;
-    max-width: 320px;
+section h1#pai{
+    font-family: cursive;
 }
 button{
     display: flex;
