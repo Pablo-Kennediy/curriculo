@@ -4,12 +4,14 @@
     font-family:cursive;
     font-size: large;
 }
+h1, button {
+    box-shadow: 15px 13px 25px;
+}
 body{
     background: url(https://img.freepik.com/fotos-premium/copyspace-com-decoracao-floral_664601-7308.jpg?w=900) no-repeat;
     background-size: cover;
 }
 main{
-    margin: 25px;
     padding: 25px;
 }
 picture img{
@@ -49,12 +51,23 @@ section{
     margin: auto;
     padding: 25px;
 }
-section h1 {
+h1 {
     display: block;
     font-family: monospace;
     font-size: xxx-large;
     text-align: center;
     color: rgb(105, 46, 12);
+    padding: auto;
+    border-radius: 360px;
+}
+h2{
+    display: block;
+    font-family: monospace;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(105, 46, 12);
+    padding: auto;
+    border-radius: 360px;
 }
 section h1#pai{
     font-family: cursive;
@@ -62,8 +75,7 @@ section h1#pai{
 button{
     display: flex;
     margin: auto;
-    border-radius: 25px;
-    margin-bottom: 25px;
+    border-radius: 360px;
 }
 footer{
     text-align: center;
