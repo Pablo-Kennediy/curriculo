@@ -1,24 +1,23 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:cursive;
-    font-size: large;
+    font-family: monospace;
+    text-align: center;
 }
-h1, button {
+h1#pai,button, img {
     box-shadow: 15px 13px 25px;
 }
 body{
-    background: url(https://img.freepik.com/fotos-premium/copyspace-com-decoracao-floral_664601-7308.jpg?w=900) no-repeat;
-    background-size: cover;
+    background-color: black;
+    color: white;
 }
 main{
-    padding: 25px;
+    background-attachment: fixed;
 }
 picture img{
     display: inline-block;
     max-width: 200px;
     border-radius: 200px;
-    box-shadow: 15px 13px 25px;
     margin: auto;
     margin-bottom: 25px;
 }
@@ -41,43 +40,57 @@ picture#logoNetflix img{
     max-width: 50px;
     margin: auto;
 }
+button{
+    border-radius: 360px;
+    max-width: 250px;
+    margin: 25px;
+}
 button picture img{
     width: 50px;
+    margin: 5px;
 }
 section{
     background-color: rgba(163, 153, 133, 0.411);
-    box-shadow: 15px 13px 25px;
     border-radius: 20px;
-    margin: auto;
+    margin: 25px;
     padding: 25px;
+}
+section#forMain{
+    background-image: url("fdMain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+article#primeiro{
+    font-size: xx-large;
+    font-family: cursive;
+    width: 100%;
+}
+aside{
+    margin: 15px;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.projetos{
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+article {
+    justify-content: space-around;
+    align-items: center;
 }
 h1 {
     display: block;
-    font-family: monospace;
-    font-size: xxx-large;
-    text-align: center;
-    color: rgb(105, 46, 12);
-    padding: auto;
-    border-radius: 360px;
+    border-radius: 25px;
+    margin-bottom: 25px;
 }
 h2{
     display: block;
-    font-family: monospace;
-    text-align: center;
-    font-size: xx-large;
-    color: rgb(105, 46, 12);
-    padding: auto;
     border-radius: 360px;
-}
-section h1#pai{
-    font-family: cursive;
-}
-button{
-    display: flex;
-    margin: auto;
-    border-radius: 360px;
+    margin-bottom: 25px;
 }
 footer{
-    text-align: center;
     background-color: darkgoldenrod;
 }
