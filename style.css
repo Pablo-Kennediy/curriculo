@@ -35,15 +35,9 @@ picture#logoPK img{
     margin-bottom: 20px;
     border-radius: 20px;
 }
-picture#logoNetflix img{
-    display: block;
-    max-width: 50px;
-    margin: auto;
-}
 button{
     border-radius: 360px;
-    max-width: 250px;
-    margin: 25px;
+    width: 80px;
 }
 button picture img{
     width: 50px;
@@ -75,7 +69,11 @@ aside{
 .projetos{
     justify-content: space-around;
     align-items: center;
-    margin: auto;
+}
+.projetos0{
+    display: contents;
+        width: 100%;
+        margin: auto;
 }
 article {
     justify-content: space-around;
@@ -91,6 +89,13 @@ h2{
     border-radius: 360px;
     margin-bottom: 25px;
 }
+p{
+    background-color: rgba(0, 0, 0, 0.911);
+}
 footer{
     background-color: darkgoldenrod;
+    padding: 10px;
+}
+footer a {
+color: white;
 }
