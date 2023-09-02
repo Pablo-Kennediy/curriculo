@@ -1,101 +1,121 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    color: white;
     font-family: monospace;
     text-align: center;
+    font-family: monospace;
+    font-size: large;
 }
-h1#pai,button, img {
+h1#pai,
+button,
+img {
     box-shadow: 15px 13px 25px;
 }
-body{
-    background-color: black;
-    color: white;
+h1{
+    font-size: larger;
+    font-family: cursive;
 }
-main{
+body {
+    background-color: black;
+}
+main {
     background-attachment: fixed;
 }
-picture img{
+
+picture img {
     display: inline-block;
     max-width: 200px;
     border-radius: 200px;
     margin: auto;
     margin-bottom: 25px;
 }
-picture#PERFIL img{
+
+picture#PERFIL img {
     margin: 25px;
 }
-picture#links img{
+
+picture#links img {
     width: 50px;
     margin: auto;
 }
-picture#logoPK img{
+
+picture#logoPK img {
     width: 100%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
 }
-button{
+
+button {
     border-radius: 360px;
     width: 80px;
 }
-button picture img{
+
+button picture img {
     width: 50px;
     margin: 5px;
 }
-section{
-    background-color: rgba(163, 153, 133, 0.411);
+
+section {
     border-radius: 20px;
-    margin: 25px;
-    padding: 25px;
+    margin: 15px;
+    padding: 15px;
 }
-section#forMain{
+
+section#forMain {
     background-image: url("fdMain.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-article#primeiro{
+
+.forMain {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 20px;
+}
+label{
+    float: right;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+article#primeiro {
     font-size: xx-large;
     font-family: cursive;
     width: 100%;
 }
-aside{
+
+aside {
     margin: 15px;
     padding: 15px;
     justify-content: space-around;
     align-items: center;
 }
-.projetos{
+
+.projetos {
     justify-content: space-around;
     align-items: center;
 }
-.projetos0{
+
+.projetos0 {
     display: contents;
-        width: 100%;
-        margin: auto;
+    width: 100%;
+    margin: auto;
 }
+
 article {
     justify-content: space-around;
     align-items: center;
 }
-h1 {
-    display: block;
-    border-radius: 25px;
-    margin-bottom: 25px;
-}
-h2{
-    display: block;
-    border-radius: 360px;
-    margin-bottom: 25px;
-}
-p{
-    background-color: rgba(0, 0, 0, 0.911);
-}
-footer{
+footer {
+    font-size: larger;
     background-color: darkgoldenrod;
     padding: 10px;
+    padding-bottom: 80px;
 }
 footer a {
-color: white;
+    color: white;
 }
