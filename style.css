@@ -24,43 +24,37 @@ picture img {
     margin: auto;
     margin-bottom: 25px;
 }
-
 picture#PERFIL img {
     margin: 25px;
 }
-
 picture#links img {
     width: 50px;
     margin: auto;
 }
-
 picture#logoPK img {
     width: 100%;
     margin: 20px;
     border-radius: 20px;
 }
-
 button {
     border-radius: 360px;
     width: 80px;
 }
-
 button picture img {
     width: 50px;
     margin: 5px;
 }
-
 section{
     border-radius: 20px;
     margin: 15px;
     padding: 15px;
 }
-
 section#forMain {
     background-image: url("fdMain.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: right top;
 }
 label{
     float: right;
