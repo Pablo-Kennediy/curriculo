@@ -17,24 +17,12 @@ body {
 main {
     background-attachment: fixed;
 }
-picture img {
+img {
     display: inline-block;
-    max-width: 200px;
+    max-width: 120px;
     border-radius: 360px;
     margin: auto;
     margin-bottom: 25px;
-}
-picture#PERFIL img {
-    margin: 25px;
-}
-picture#links img {
-    width: 50px;
-    margin: auto;
-}
-picture#logoPK img {
-    width: 100%;
-    margin: 20px;
-    border-radius: 20px;
 }
 button {
     border-radius: 360px;
