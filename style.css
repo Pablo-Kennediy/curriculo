@@ -14,66 +14,19 @@ body {
     background-image: url('fdmain01.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+main{
+    padding: 25px;
     color: white;
+    font-size: large;
 }
-main {
-    margin: 25px;
-    margin-bottom: 65vh;
+p{
+margin: 10px;
 }
-img {
-    display: inline-block;
-    max-width: 120px;
-    border-radius: 360px;
-    margin: auto;
-    margin-bottom: 25px;
-}
-button {
-    border-radius: 360px;
-    width: 80px;
-}
-button picture img {
-    width: 50px;
-    margin: 5px;
-}
-button#ixd01 {
-    margin: auto;
-    margin-top: 50vh;
-    margin-left: 35%;
-    width: 300px;
-    color: black;
-    background-color: white;
-}
-section{
-    border-radius: 20px;
-    margin: 15px;
-    padding: 15px;
-}
-section#forMain {
-    background-image: url("fdMain.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-label{
-    float: right;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.774);
-    padding: 5px;
-    border-radius: 80px;
-}
-article#primeiro {
-    font-size: xx-large;
-    font-family: cursive;
-    width: 100%;
-}
-.projetos0 {
-    display: contents;
-    width: 100%;
-    margin: auto;
-}
-article {
-    justify-content: space-around;
-    align-items: center;
+button#ixd01{
+    margin: 15vh;
+    padding: 10px;
+    border-radius: 25px;
 }
 footer {
     text-align: center;
@@ -81,6 +34,7 @@ footer {
     background-color: rgba(114, 83, 5, 0.123);
     padding: 10px;
     padding-bottom: 80px;
+    color: white;
 }
 footer a {
     color: white;
