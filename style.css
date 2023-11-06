@@ -12,7 +12,9 @@ h1{
     font-family: cursive;
 }
 body {
-    background-color: black;
+    background-image: url('fdMain.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main {
     background-attachment: fixed;
@@ -32,6 +34,14 @@ button picture img {
     width: 50px;
     margin: 5px;
 }
+button#ixd01 {
+    margin: auto;
+    margin-top: 50vh;
+    margin-left: 35%;
+    width: 300px;
+    color: black;
+    background-color: white;
+}
 section{
     border-radius: 20px;
     margin: 15px;
@@ -39,10 +49,10 @@ section{
 }
 section#forMain {
     background-image: url("fdMain.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
     background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 label{
     float: right;
