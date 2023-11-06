@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    color: white;
     font-family: monospace;
     font-family: monospace;
     font-size: large;
@@ -12,12 +11,14 @@ h1{
     font-family: cursive;
 }
 body {
-    background-image: url('fdMain.png');
+    background-image: url('fdmain01.png');
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 main {
-    background-attachment: fixed;
+    margin: 25px;
+    margin-bottom: 65vh;
 }
 img {
     display: inline-block;
@@ -50,7 +51,6 @@ section{
 section#forMain {
     background-image: url("fdMain.png");
     background-attachment: fixed;
-    background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
 }
