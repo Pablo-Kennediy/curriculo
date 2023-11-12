@@ -3,6 +3,12 @@
     padding: 0;
     font-family: monospace;
     font-size: large;
+
+}
+
+a {
+    color: white;
+    border-radius: 360px;
 }
 
 h1 {
@@ -18,21 +24,29 @@ body {
     background-image: url('fdmain01.png');
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 main {
     padding: 25px;
-    color: white;
     font-size: large;
-    background-color: rgba(0, 0, 0, 0.144);
 }
 
-button#ixd01 {
+section {
+    margin: auto;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+aside{
+margin: 15px;}
+
+button {
     display: flex;
     margin: auto;
     padding: 10px;
     border-radius: 25px;
     color: black;
+        background-color: rgba(0, 0, 0, 0.432);
 }
 
 picture#digital {
@@ -48,17 +62,7 @@ picture#digital img {
 footer {
     text-align: center;
     font-size: larger;
-    background-color: rgba(114, 83, 5, 0.123);
     padding: 10px;
     padding-bottom: 80px;
     color: white;
-}
-
-footer a {
-    color: white;
-}
-
-footer>article {
-    background-color: rgba(0, 0, 0, 0.432);
-    padding: 5px;
 }
