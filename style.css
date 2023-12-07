@@ -3,7 +3,7 @@
     padding: 0;
     font-family: monospace;
     font-size: large;
-
+    border-radius: 25px;
 }
 
 a {
@@ -37,16 +37,17 @@ section {
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.432);
 }
-aside{
-margin: 15px;}
+
+aside {
+    margin: 15px;
+}
 
 button {
     display: flex;
     margin: auto;
     padding: 10px;
-    border-radius: 25px;
     color: black;
-        background-color: rgba(0, 0, 0, 0.432);
+    background-color: rgba(104, 104, 104, 0.39);
 }
 
 picture#digital {
