@@ -22,17 +22,23 @@ body {
     background-size: cover;
     color: white;
 }
-
+.interface{
+    background-color: rgba(0, 0, 0, 0.582);
+}
+h1, h2{
+font-size: xx-large;
+}
 main {
+   
     padding: 25px;
 }
 
 section {
-    background-color: rgba(0, 0, 0, 0.863);
     margin: auto;
     margin-top: 25px;
     padding: 5px;
     max-width: 900px;
+    text-align: center;
 }
 
 aside {
@@ -55,4 +61,7 @@ footer {
 
 #digital img {
     max-width: 90px;
+}
+iframe{
+width: 100%;
 }
