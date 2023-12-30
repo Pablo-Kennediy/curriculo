@@ -5,9 +5,14 @@
     font-size: x-large;
 }
 
-a {
-    color: white;
+button ,a {
     margin: auto;
+    padding: 5px;
+    background-color: rgba(104, 104, 104, 0.39);
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 15px;
+    color: white;
 }
 h1{
 color: aquamarine;
@@ -44,13 +49,6 @@ section {
 aside {
    background-color: rgba(0, 0, 0, 0.863);
     margin-top: 25px;
-}
-
-button {
-    margin: auto;
-    padding: 5px;
-    background-color: rgba(104, 104, 104, 0.39);
-    border-radius: 25px;
 }
 
 footer {
