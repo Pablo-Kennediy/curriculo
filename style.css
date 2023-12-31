@@ -59,3 +59,9 @@ width: 100%;
 #br img{
     max-width: 35px;
 }
+footer img{
+    max-width: 45px;
+}
+img{
+    margin: auto;
+}
