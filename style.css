@@ -4,17 +4,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
 }
-
 button ,a {
     margin: auto;
     padding: 5px;
-    background-color: rgba(104, 104, 104, 0.39);
     border-radius: 25px;
     text-decoration: none;
     margin: 15px;
-    color: white;
+  color: black;
 }
-
 body {
     background-image: url('fdmain01.png');
     background-repeat: no-repeat;
@@ -28,7 +25,6 @@ main {
    
     padding: 25px;
 }
-
 section {
     margin: auto;
     margin-top: 25px;
@@ -36,12 +32,10 @@ section {
     max-width: 900px;
     text-align: center;
 }
-
 aside {
    background-color: rgba(0, 0, 0, 0.863);
     margin-top: 25px;
 }
-
 footer {
     text-align: center;
     padding: 10px;
