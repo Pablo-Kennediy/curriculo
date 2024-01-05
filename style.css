@@ -69,7 +69,7 @@ img {
 
 picture#moon img {
     margin: auto;
-    margin-left: 80%;
+
 }
 
 ul li {
@@ -86,7 +86,26 @@ nav ul li {
 }
 section{
     margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.692);
+    color: black;
+    border-radius: 15px;
+    padding: 15px;
 }
 button{
     color: black;
+}
+picture#redesSociais img{
+    display: inline-block;
+    margin: 15px;
+    max-width: 45px;
+}
+picture#verificado img{
+    max-width: 35px;
+}
+h1{
+    text-align: justify;
+    margin-top: 15px;
+}
+picture#dinheiro img{
+    max-width: 35px;
 }
