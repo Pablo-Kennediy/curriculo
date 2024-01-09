@@ -126,3 +126,6 @@ nav ul li {
     padding: 10px;
     margin: 5px;
 }
+picture#miniLogoProjetos img{
+    max-width: 35px;
+}
