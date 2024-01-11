@@ -3,12 +3,11 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
+    color: black;
 }
 
 a {
-    color: white;
     text-decoration: none;
-    margin: 10 px;
 }
 
 button {
@@ -64,7 +63,7 @@ iframe {
 }
 
 #br img {
-    max-width: 35px;
+    max-width: 125px;
 }
 
 footer img {
@@ -107,25 +106,20 @@ picture#grafico img {
     display: block;
 }
 
-ul li {
-    display: inline-block;
-    list-style: none;
-}
-
 nav {
-    margin: 15px;
     justify-content: center;
     text-align: center;
 }
 
 nav ul li {
+    display: inline-block;
+    list-style: none;
     background-color: white;
-    color: black;
     border: 2px solid gray;
     border-radius: 15px;
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
 }
 picture#miniLogoProjetos img{
-    max-width: 35px;
+    border-radius: 15px;
+    max-width: 45px;
 }
