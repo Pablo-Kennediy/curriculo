@@ -16,14 +16,6 @@ button {
     border-radius: 25px;
     text-decoration: none;
     margin: 15px;
-    color: black;
-}
-
-body {
-    background-image: url('fdmain01.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
 }
 
 div.interface {
@@ -32,8 +24,6 @@ div.interface {
 
 section {
     margin: auto;
-    margin-top: 50px;
-    max-width: 900px;
     background-color: rgba(255, 255, 255, 0.76);
     color: black;
     border-radius: 15px;
@@ -45,11 +35,10 @@ aside {
     margin-top: 25px;
 }
 
-footer > p {
+footer>p {
     text-align: center;
     padding: 10px;
     padding-bottom: 80px;
-    color: white;
 }
 
 #digital img {
@@ -66,6 +55,7 @@ iframe {
     float: right;
     max-width: 125px;
 }
+
 picture#grafico img {
     display: block;
     float: left;
@@ -81,8 +71,9 @@ img {
 }
 
 picture#moon img {
+    display: block;
     margin: auto;
-
+    max-width: 285px;
 }
 
 button {
@@ -97,6 +88,7 @@ picture#redesSociais img {
 
 picture#verificado img {
     max-width: 35px;
+    float: left;
 }
 
 h1 {
@@ -120,7 +112,8 @@ nav ul li {
     border-radius: 15px;
     padding: 5px;
 }
-picture#miniLogoProjetos img{
+
+picture#miniLogoProjetos img {
     border-radius: 15px;
     max-width: 45px;
 }
