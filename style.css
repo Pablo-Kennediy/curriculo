@@ -128,3 +128,7 @@ picture#InformationTechnology img {
 .flex {
     display: flex;
 }
+picture#predio img{
+    display: block;
+    width: 100%;
+}
