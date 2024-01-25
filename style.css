@@ -7,7 +7,6 @@
 }
 
 header {
-    height: 100vh;
     background-color: #230D73;
     color: white;
 }
@@ -132,4 +131,15 @@ picture#InformationTechnology img {
 picture#predio img{
     display: block;
     width: 100%;
+}
+video{
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+.video{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: #230D73;
 }
