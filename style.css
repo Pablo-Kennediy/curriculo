@@ -7,6 +7,7 @@
 }
 
 header {
+    height: 100vh;
     background-color: #230D73;
     color: white;
 }
@@ -96,7 +97,7 @@ picture#verificado img {
 h1 {
     text-align: center;
     color: #230D73;
-    margin-top: 15px;
+    margin: 15px;
 }
 
 picture#dinheiro img {
