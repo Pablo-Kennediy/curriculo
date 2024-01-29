@@ -43,11 +43,6 @@ footer>p {
     max-width: 90px;
 }
 
-iframe {
-    width: 100%;
-    height: 70vh;
-}
-
 picture#br img {
     display: block;
     width: 125px;
