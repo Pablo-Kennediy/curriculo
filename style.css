@@ -64,7 +64,6 @@ img {
 picture#moon img {
     display: block;
     margin: auto;
-    max-width: 120px;
 }
 
 button {
