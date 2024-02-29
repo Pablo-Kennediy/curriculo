@@ -104,6 +104,11 @@ nav ul li {
     display: inline-block;
     list-style: none;
     color: white;
+    border: #230D73 2px solid;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+    
 }
 
 picture#miniLogoProjetos img {
