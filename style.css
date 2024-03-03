@@ -96,11 +96,6 @@ picture#dinheiro img {
     max-width: 35px;
 }
 
-nav {
-    justify-content: center;
-    text-align: center;
-}
-
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -108,8 +103,7 @@ nav ul li {
     border: #230D73 2px solid;
     border-radius: 5px;
     padding: 3px;
-    margin: 5px;
-    
+    margin: 5px;    
 }
 
 picture#miniLogoProjetos img {
@@ -130,7 +124,8 @@ picture#predio img{
 }
 video{
     display: block;
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 .video{
     display: block;
