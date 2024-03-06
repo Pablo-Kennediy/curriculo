@@ -103,7 +103,6 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-around;
-    padding: 15px;
 }
 
 nav ul li {
