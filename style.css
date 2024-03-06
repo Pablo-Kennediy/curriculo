@@ -140,10 +140,6 @@ video {
     margin: auto;
     
 }
-video::-internal-media-controls
-{ 
-    display: none;
-}
 
 .video {
     display: block;
