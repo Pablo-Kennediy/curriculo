@@ -97,19 +97,24 @@ picture#dinheiro img {
 }
 
 nav {
-    background-color: black;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul {
     display: flex;
-    justify-content: space-around;
 }
 
 nav ul li {
     display: block;
+    margin: auto;
+    margin-top: 5px;
+    padding: 2px;
     list-style: none;
-    border-left: 1px solid gray ;
-    border-right: 1px solid gray ;
+    background-color: #230D73;
+    border-radius: 15px;
+    font-size: medium;
+    justify-content: space-between;
 }
 
 nav ul li a {
@@ -138,7 +143,7 @@ video {
     display: block;
     width: 100%;
     margin: auto;
-    
+
 }
 
 .video {
