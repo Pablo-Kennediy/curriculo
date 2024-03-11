@@ -8,6 +8,7 @@
     padding: 15px;
 }
 header {
+    position: relative;
     color: white;
 }
 
@@ -119,7 +120,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: gold;
+    color: white;
 }
 
 picture#miniLogoProjetos img {
@@ -144,6 +145,7 @@ video {
     display: block;
     width: 100%;
     margin: auto;
+    top: 20;
 }
 
 .video {

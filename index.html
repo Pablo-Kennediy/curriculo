@@ -14,7 +14,9 @@
 <body>
   <picture id="btnWhatsapp">
     <a href="https://maper.info/29j736" target="_blank">
-      <video src="FALE CONOSCO.mp4" muted autoplay loop>
+      <video muted autoplay loop>
+        <source src="FALE-CONOSCO-DESKTOP.mp4" media="(max-width: 500px)" style="video::internal-media-controls{display: none;}" >
+        <source src="FALE-CONOSCO-MOBILE.mp4" media="(min-width: 501px)" style="video::internal-media-controls{display: none;}">
       </video>
             </a>
   </picture>
@@ -46,7 +48,7 @@
   </header>
   <video muted autoplay loop>
     <source src="primeiro.mp4" media="(max-width: 500px)" style="video::internal-media-controls{display: none;}" >
-    <source src="Infinity.mp4" media="(min-width: 501px)" style="video::internal-media-controls{display: none;}" >
+    <source src="Infinity.mp4" media="(min-width: 501px)" style="video::internal-media-controls{display: none;}">
   </video>
   <div class="interface">
     <h1 style="color: #230D73; text-align: justify;">
@@ -164,7 +166,8 @@
     </p>
     <p style="background-color: white;">
       Clique
-      <a href="https://iplis.ru/meu-portifolio" target="_blank"><button type="button" id="ixd01">
+      <a href="https://iplis.ru/meu-portifolio" target="_blank">
+        <button type="button" id="ixd01">
         aqui
       </button>
     </a>
