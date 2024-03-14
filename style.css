@@ -163,5 +163,7 @@ video {
     max-width: 400px;
 }
 #apps img {
+    display: block;
+    margin: auto;
     width: 100%;
 }
