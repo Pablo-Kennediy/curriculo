@@ -162,6 +162,9 @@ video {
     margin: auto;
     max-width: 400px;
 }
+#apps{
+    width: 100%;
+}
 #apps img {
     display: block;
     margin: auto;
