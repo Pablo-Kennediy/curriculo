@@ -29,7 +29,7 @@ section {
     background-color: #230D73;
     color: white;
     border-radius: 15px;
-    padding: 50px;
+    padding: 15px;
 }
 
 aside {
@@ -161,4 +161,7 @@ video {
     display: block;
     margin: auto;
     max-width: 400px;
+}
+#apps img {
+    width: 100%;
 }
