@@ -27,9 +27,13 @@ button {
 section {
     margin: 25px;
     background-color: #230D73;
+    box-shadow: #230D73 10px 10px 50px 10px;
     color: white;
     border-radius: 15px;
     padding: 15px;
+}
+section li{
+    list-style: none;
 }
 
 aside {
@@ -101,6 +105,8 @@ picture#dinheiro img {
 
 nav {
     width: 100%;
+    box-shadow: #230D73 10px 10px 50px 10px;
+
 }
 
 nav ul {
@@ -170,13 +176,22 @@ video {
     margin: auto;
     width: 100%;
 }
+ul#cursos video{
+    max-width: 285px;
+    border-radius: 15px;
+    box-shadow: #230D73 10px 10px 50px 10px;
+}
 ul#cursos {
+    padding: 15px;
     columns: 2;
 }
 ul#cursos li{
-    margin: 15px;
+    margin: 10px;
     border-radius: 15px;
     border: 1px solid gray;
     list-style: none;
     font-size: medium;
+    padding: 10px;
+    background-color: #230D73;
+    color: white;
 }
