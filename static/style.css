@@ -182,6 +182,7 @@ ul#cursos video{
     box-shadow: #230D73 10px 10px 50px 10px;
 }
 ul#cursos {
+    margin-top: 50px;
     padding: 15px;
     columns: 2;
 }
