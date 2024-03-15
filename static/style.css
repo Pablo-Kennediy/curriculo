@@ -170,3 +170,13 @@ video {
     margin: auto;
     width: 100%;
 }
+ul#cursos {
+    columns: 2;
+}
+ul#cursos li{
+    margin: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    list-style: none;
+    font-size: medium;
+}
