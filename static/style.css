@@ -196,3 +196,14 @@ ul#cursos li{
     background-color: #230D73;
     color: white;
 }
+.finalizar{
+    background-color: white;
+    color: #230D73;
+    columns: 2;
+}
+
+.finalizar img{
+    display: block;
+    margin: auto;
+    max-width: 500px;
+}
