@@ -4,9 +4,11 @@
     font-family: sans-serif;
     font-size: x-large;
 }
-.interface{
+
+.interface {
     padding: 15px;
 }
+
 header {
     position: relative;
     color: white;
@@ -32,7 +34,8 @@ section {
     border-radius: 15px;
     padding: 15px;
 }
-section li{
+
+section li {
     list-style: none;
 }
 
@@ -159,34 +162,42 @@ video {
     height: 100vh;
     background-color: #230D73;
 }
+
 #btnWhatsapp {
     position: fixed;
-    top: 89vh;    
+    top: 89vh;
 }
+
 #btnWhatsapp img {
     display: block;
     margin: auto;
     max-width: 400px;
 }
-#apps{
+
+#apps {
     width: 100%;
 }
+
 #apps img {
     display: block;
     margin: auto;
     width: 100%;
 }
-ul#cursos video{
-    max-width: 285px;
+video, img{
     border-radius: 15px;
+}
+ul#cursos video {
+    max-width: 285px;
     box-shadow: #230D73 10px 10px 50px 10px;
 }
+
 ul#cursos {
     margin-top: 50px;
     padding: 15px;
     columns: 2;
 }
-ul#cursos li{
+
+ul#cursos li {
     margin: 10px;
     border-radius: 15px;
     border: 1px solid gray;
@@ -196,19 +207,21 @@ ul#cursos li{
     background-color: #230D73;
     color: white;
 }
-.finalizar{
+
+.finalizar {
+    max-width: 900px;
+    margin: 10vh auto 10vh auto;
+    padding: 15px;
     background-color: white;
     color: #230D73;
-    columns: 2;
+    box-shadow: none;
 }
 
-.finalizar img{
+.finalizar img {
     display: block;
     margin: auto;
-    max-width: 500px;
+    width: 100%;
 }
-@media (max-width: 500px){
-    .finalizar{
-columns: 1;
-}
+.finalizar ul{
+    columns: 2;
 }
