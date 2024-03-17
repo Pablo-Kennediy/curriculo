@@ -69,7 +69,9 @@ footer img {
 }
 
 img {
+    display: block;
     margin: auto;
+    width: 100%;
 }
 
 picture#moon img {
@@ -174,15 +176,16 @@ video {
     max-width: 400px;
 }
 
-#apps {
+#apps img {
     width: 100%;
+}
+section#apps ul{
+    columns:4;
+}
+section#apps ul li{
+    padding: 15px;
 }
 
-#apps img {
-    display: block;
-    margin: auto;
-    width: 100%;
-}
 video, img{
     border-radius: 15px;
 }
