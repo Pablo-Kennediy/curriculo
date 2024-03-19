@@ -8,6 +8,12 @@
 header {
     position: relative;
     color: white;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    flex-wrap: wrap;
+    margin: 10px;
 }
 
 a {
@@ -27,6 +33,9 @@ section {
     box-shadow: #230D73 10px 10px 50px 10px;
     color: white;
     border-radius: 5px;
+    padding: 10px;
+    max-width: 900px;
+    margin: auto;
     margin-bottom: 50px;
 }
 
@@ -104,6 +113,7 @@ picture#dinheiro img {
 }
 
 nav {
+    display: flex;
     width: 100%;
     box-shadow: #230D73 10px 10px 50px 10px;
 
@@ -111,12 +121,13 @@ nav {
 
 nav ul {
     display: flex;
+    width: 100%;
     background-color: #230D73;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul li {
-    display: block;
+    display: inline-block;
     margin: auto;
     padding: 2px;
     list-style: none;
@@ -126,6 +137,10 @@ nav ul li {
 
 nav ul li a {
     color: white;
+}
+nav picture img{
+    display: block;
+    max-width: 30%;
 }
 
 picture#miniLogoProjetos img {
@@ -174,13 +189,15 @@ video {
 #apps img {
     width: 100%;
 }
-section#apps ul{
-    columns:4;
+
+section#apps ul {
+    columns: 4;
 }
 
-video, img{
+img {
     border-radius: 15px;
 }
+
 ul#cursos video {
     max-width: 285px;
     box-shadow: #230D73 10px 10px 50px 10px;
@@ -205,7 +222,7 @@ ul#cursos li {
 
 .finalizar {
     max-width: 900px;
-    margin: 10vh auto ;
+    margin: 10vh auto;
     padding: 15px;
     background-color: white;
     color: #230D73;
@@ -217,6 +234,7 @@ ul#cursos li {
     margin: auto;
     width: 100%;
 }
-.finalizar ul{
+
+.finalizar ul {
     columns: 2;
 }
