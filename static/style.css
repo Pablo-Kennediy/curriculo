@@ -113,14 +113,12 @@ picture#dinheiro img {
 }
 
 nav {
-    display: flex;
     width: 100%;
     box-shadow: #230D73 10px 10px 50px 10px;
 
 }
 
 nav ul {
-    display: flex;
     width: 100%;
     background-color: #230D73;
     font-family: Arial, Helvetica, sans-serif;
@@ -131,7 +129,7 @@ nav ul li {
     margin: auto;
     padding: 2px;
     list-style: none;
-    font-size: medium;
+    font-size: small;
     justify-content: space-between;
 }
 
@@ -140,7 +138,7 @@ nav ul li a {
 }
 nav picture img{
     display: block;
-    max-width: 30%;
+    max-width: 285px;
 }
 
 picture#miniLogoProjetos img {
