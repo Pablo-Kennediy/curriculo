@@ -7,6 +7,7 @@
 
 header {
     position: relative;
+    background-color: #230D73;
     color: white;
     justify-content: space-around;
 }
@@ -14,6 +15,10 @@ header {
 header nav ul li {
     flex-wrap: wrap;
     margin: 10px;
+}
+
+body {
+    margin: auto;
 }
 
 a {
@@ -76,6 +81,7 @@ img {
     display: block;
     margin: auto;
     width: 100%;
+    border-radius: 0;
 }
 
 picture#moon img {
@@ -113,9 +119,15 @@ picture#dinheiro img {
 }
 
 nav {
+    display: flex;
     width: 100%;
     box-shadow: #230D73 10px 10px 50px 10px;
+}
 
+@media media="(max-width: 500px)" {
+    nav{
+        display: block;
+    }
 }
 
 nav ul {
@@ -136,7 +148,8 @@ nav ul li {
 nav ul li a {
     color: white;
 }
-nav picture img{
+
+nav picture img {
     display: block;
     max-width: 285px;
 }
@@ -207,6 +220,7 @@ ul#cursos {
     columns: 2;
 }
 
+
 ul#cursos li {
     margin: 10px;
     border-radius: 15px;
@@ -235,4 +249,9 @@ ul#cursos li {
 
 .finalizar ul {
     columns: 2;
+}
+
+#logoPK img {
+    max-width: 95px;
+    border-radius: 0px;
 }
