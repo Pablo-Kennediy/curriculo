@@ -124,7 +124,7 @@ nav {
     box-shadow: #230D73 10px 10px 50px 10px;
 }
 
-@media media="(max-width: 500px)" {
+@media (max-width: 500px){
     nav{
         display: block;
     }
