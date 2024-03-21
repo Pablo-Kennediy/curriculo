@@ -6,6 +6,7 @@
 }
 
 header {
+    height: 100%;
     position: relative;
     background-color: #230D73;
     color: white;
@@ -126,6 +127,9 @@ nav {
 @media media="(max-width: 500px)" {
     nav{
         display: block;
+    }
+    header nav{
+        height: 30%;
     }
 }
 
