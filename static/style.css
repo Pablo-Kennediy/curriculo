@@ -6,7 +6,6 @@
 }
 
 header {
-    height: 100%;
     position: relative;
     background-color: #230D73;
     color: white;
@@ -180,9 +179,12 @@ video {
     display: block;
     width: 100%;
     margin: auto;
-    top: 20;
+    padding-top: 20vh;
 }
-
+section#cursos video{
+    display: inline-block;
+    max-width: 285px;
+}
 .video {
     display: block;
     width: 100%;
