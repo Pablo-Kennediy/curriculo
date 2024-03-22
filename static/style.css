@@ -35,18 +35,16 @@ button {
 }
 
 section {
-    background-color: #230D73;
-    box-shadow: #230D73 10px 10px 50px 10px;
-    color: white;
-    border-radius: 5px;
-    padding: 10px;
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
 }
 
-section li {
+section li,
+p {
+    margin: 25px;
     list-style: none;
 }
+
 
 aside {
     background-color: rgba(0, 0, 0, 0.863);
@@ -124,16 +122,19 @@ nav {
     box-shadow: #230D73 10px 10px 50px 10px;
 }
 
-@media (max-width: 500px){
-    nav{
+@media (max-width: 500px) {
+    nav {
         display: block;
     }
-    header nav{
+
+    header nav {
         height: 30vh;
     }
 }
 
 nav ul {
+    margin: 0;
+    padding: 0;
     width: 100%;
     background-color: #230D73;
     font-family: Arial, Helvetica, sans-serif;
@@ -206,6 +207,7 @@ video {
 
 section#apps ul {
     columns: 4;
+    padding: 10px;
 }
 
 img {
@@ -257,4 +259,14 @@ ul#cursos li {
 #logoPK img {
     max-width: 95px;
     border-radius: 0px;
+}
+
+ul {
+    background-color: #230D73;
+    box-shadow: #230D73 10px 10px 50px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    padding: 10px;
 }
