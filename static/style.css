@@ -183,7 +183,9 @@ video {
     margin: auto;
     padding-top: 20vh;
 }
-
+#cursos video{
+    padding-top: 0;
+}
 section#cursos video {
     display: inline-block;
     max-width: 285px;
