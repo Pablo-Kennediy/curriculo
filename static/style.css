@@ -4,7 +4,9 @@
     font-family: sans-serif;
     font-size: x-large;
 }
-
+.interface{
+    margin-top: 20vh;
+}
 header {
     position: relative;
     background-color: #230D73;
@@ -181,10 +183,12 @@ video {
     margin: auto;
     padding-top: 20vh;
 }
-section#cursos video{
+
+section#cursos video {
     display: inline-block;
     max-width: 285px;
 }
+
 .video {
     display: block;
     width: 100%;
@@ -204,12 +208,15 @@ section#cursos video{
 }
 
 #apps img {
-    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 202px;
 }
 
-section#apps ul {
-    columns: 4;
-    padding: 10px;
+section#apps ul li{
+display: inline-block;
 }
 
 img {
@@ -271,4 +278,14 @@ ul {
     margin-bottom: 10vh;
     margin-top: 10vh;
     padding: 10px;
+}
+
+.interface h2{
+    margin-top:200px;
+    font-size: xx-large;
+}
+
+#sobre ul li{
+    border-radius: 1px solid gray;
+    max-width: 285px;
 }

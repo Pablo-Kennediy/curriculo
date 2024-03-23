@@ -51,11 +51,13 @@
       </ul>
     </nav>
   </header>
-  <h1>Validação de Certificado</h1>
-  <p>Insira o caminho para o seu certificado digital:</p>
-  <form action="validar_certificado.php" method="post" enctype="multipart/form-data">
+  <div class="interface">
+    <h2>Validação de Certificado</h2>
+    <p>Insira o caminho para o seu certificado digital:</p>
+    <form action="validar_certificado.php" method="post" enctype="multipart/form-data">
       <input type="file" name="certificado" accept=".crt,.pem" required>
       <br><br>
       <input type="submit" value="Validar">
-  </form>
+    </form>
+  </div>
 </body>
