@@ -128,9 +128,6 @@ nav {
         display: block;
     }
 
-    header nav {
-        height: 30vh;
-    }
 }
 
 nav ul {
@@ -181,7 +178,6 @@ video {
     display: block;
     width: 100%;
     margin: auto;
-    padding-top: 20vh;
 }
 #cursos video{
     padding-top: 0;
