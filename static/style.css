@@ -319,3 +319,6 @@ ul {
       flex: 1 0 50%;
     }
   }
+section#formularioInscricao li{
+    list-style: none;
+}
