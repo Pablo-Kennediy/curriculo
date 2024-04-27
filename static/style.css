@@ -4,12 +4,15 @@
     font-family: sans-serif;
     font-size: x-large;
 }
-.interface{
+
+.interface {
     margin-top: 20vh;
 }
-.interface #loocursos{
+
+.interface #loocursos {
     padding: 15px;
-} 
+}
+
 header {
     position: relative;
     background-color: #230D73;
@@ -44,7 +47,8 @@ button {
 
 section {
     max-width: 1200px;
-    margin: 15px;
+    margin: auto;
+    padding: 15px;
 }
 
 section li,
@@ -117,7 +121,7 @@ picture#verificado img {
 h1 {
     text-align: center;
     color: #230D73;
-    margin: 15px;
+    margin: 10px;
 }
 
 picture#dinheiro img {
@@ -186,13 +190,16 @@ video {
     width: 100%;
     margin: auto;
 }
+
 section.finalizar video {
     margin-left: 15px;
     max-width: 385px;
 }
-#cursos video{
+
+#cursos video {
     padding-top: 0;
 }
+
 section#cursos video {
     display: inline-block;
     max-width: 285px;
@@ -224,8 +231,8 @@ section#cursos video {
     max-width: 202px;
 }
 
-section#apps ul li{
-display: inline-block;
+section#apps ul li {
+    display: inline-block;
 }
 
 img {
@@ -250,7 +257,6 @@ ul#cursos li {
     border: 1px solid gray;
     list-style: none;
     font-size: medium;
-    padding: 10px;
     background-color: #230d739c;
     color: white;
 }
@@ -280,22 +286,22 @@ ul#cursos li {
 }
 
 ul {
+    list-style: none;
     text-align: center;
     background-color: #230D73;
     box-shadow: #230D73 10px 10px 50px 10px;
     color: white;
-    border-radius: 5px;
-    margin-bottom: 10vh;
-    margin-top: 10vh;
+    border-radius: 25px;
+    margin: 15px;
     padding: 10px;
 }
 
-.interface h2{
-    margin-top:200px;
+.interface h2 {
+    margin-top: 200px;
     font-size: xx-large;
 }
 
-#sobre ul li{
+#sobre ul li {
     border-radius: 1px solid gray;
 }
 
@@ -305,20 +311,47 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .lista li {
+}
+
+.lista li {
     flex: 1 0 1;
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
-  }
-  
-  @media (max-width: 500px) {
+}
+
+@media (max-width: 500px) {
     .lista li {
-      flex: 1 0 50%;
+        flex: 1 0 50%;
     }
-  }
-section#formularioInscricao li{
+}
+
+section#formularioInscricao {
+    text-align: center;
+}
+
+section#formularioInscricao li {
     list-style: none;
+}
+
+.ranking {
+    text-align: center;
+}
+
+.ranking article a {
+    display: block;
+    text-align: center;
+    color: #230D73;
+    margin: 20px;
+    border: 3px solid;
+    border-radius: 15px;
+}
+ form ul input {
+    margin: auto;
+    padding: 0;
+    font-size: small;
+    width: 58%;
+}
+.validarCertificado form input li{
+    max-width: 285px;
 }
