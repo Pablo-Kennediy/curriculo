@@ -138,6 +138,23 @@ nav {
     nav {
         display: block;
     }
+    .minhaDivNavApareceESome {
+        display: none;
+    }
+    nav img#menu  {
+        display: block;
+        width: 15%;
+        float: left;
+        margin: 15px;
+    }
+}
+@media (min-width: 500px) {
+    nav img#menu  {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
 
 }
 
@@ -297,7 +314,7 @@ ul {
 }
 
 .interface h2 {
-    margin-top: 200px;
+    margin-top: 100px;
     font-size: xx-large;
 }
 
@@ -346,12 +363,18 @@ section#formularioInscricao li {
     border: 3px solid;
     border-radius: 15px;
 }
- form ul input {
+
+form ul input {
     margin: auto;
     padding: 0;
     font-size: small;
     width: 58%;
 }
-.validarCertificado form input li{
+
+.validarCertificado form input li {
     max-width: 285px;
+}
+.ulMenu ul,li,a {
+    background-color: #230D73;
+    color: white;
 }
