@@ -141,7 +141,7 @@ nav {
     .minhaDivNavApareceESome {
         display: none;
     }
-    nav img#menu  {
+     img#menu  {
         display: block;
         width: 15%;
         float: left;
@@ -377,4 +377,9 @@ form ul input {
 .ulMenu ul,li,a {
     background-color: #230D73;
     color: white;
+}
+.logo  {
+    justify-content: center;
+align-items: center;
+    width: 80%;
 }
