@@ -135,27 +135,30 @@ nav {
 }
 
 @media (max-width: 500px) {
+    .lista li {
+        flex: 1 0 50%;
+    }
+
     nav {
         display: block;
     }
+
     .minhaDivNavApareceESome {
         display: none;
     }
-     img#menu  {
+
+    img#menu {
         display: block;
-        width: 15%;
+        max-width: 35px;
         float: left;
-        margin: 15px;
+        margin: auto;
     }
 }
+
 @media (min-width: 500px) {
-    nav img#menu  {
+    nav img#menu {
         display: none;
     }
-}
-
-@media only screen and (max-width: 500px) {
-
 }
 
 nav ul {
@@ -298,8 +301,14 @@ ul#cursos li {
 }
 
 #logoPK img {
+    display: block;
+    margin: auto;
     max-width: 95px;
     border-radius: 0px;
+}
+.logoPK {
+    padding: 15px;
+    align-items: center;
 }
 
 ul {
@@ -337,11 +346,7 @@ ul {
     text-align: center;
 }
 
-@media (max-width: 500px) {
-    .lista li {
-        flex: 1 0 50%;
-    }
-}
+
 
 section#formularioInscricao {
     text-align: center;
@@ -374,12 +379,16 @@ form ul input {
 .validarCertificado form input li {
     max-width: 285px;
 }
-.ulMenu ul,li,a {
+
+.ulMenu ul,
+li,
+a {
     background-color: #230D73;
     color: white;
 }
-.logo  {
+
+.logo {
     justify-content: center;
-align-items: center;
+    align-items: center;
     width: 80%;
 }
