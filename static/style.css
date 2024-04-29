@@ -375,7 +375,9 @@ form ul input {
     font-size: small;
     width: 58%;
 }
-
+input{
+    font-size: xx-small;
+}
 .validarCertificado form input li {
     max-width: 285px;
 }
