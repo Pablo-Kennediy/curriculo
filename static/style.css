@@ -299,6 +299,10 @@ ul#cursos li {
 .finalizar ul {
     columns: 2;
 }
+ul#opcaoespagamento a{
+justify-content: space-around;
+margin: 15px;
+}
 
 #logoPK img {
     display: block;
@@ -323,7 +327,7 @@ ul {
 }
 
 .interface h2 {
-    margin-top: 100px;
+    margin-top: 70px;
     font-size: xx-large;
 }
 
@@ -354,6 +358,12 @@ section#formularioInscricao {
 
 section#formularioInscricao li {
     list-style: none;
+}
+.formularioInscricao, li, h2{
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: justify;
 }
 
 .ranking {
