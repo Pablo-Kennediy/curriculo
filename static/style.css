@@ -346,7 +346,10 @@ ul {
     padding: 0;
     margin: 0;
 }
-
+.lista a{
+    background-color: white;
+    color: #230D73;
+}
 .lista li {
     flex: 1 0 1;
     padding: 10px;
