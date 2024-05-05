@@ -123,9 +123,11 @@ picture#verificado img {
 }
 
 h1 {
-    text-align: center;
-    color: #230D73;
+        color: #230D73;
     margin: 10px;
+}
+h1, h2, p{
+    text-align: justify;
 }
 
 picture#dinheiro img {
