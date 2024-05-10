@@ -1,20 +1,17 @@
 * {
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
-   }
-a{
+}
+
+a {
     border-radius: 15px;
     margin: 15px;
     padding: 5px;
 }
-.interface {
-    font-family: sans-serif;
-    font-size: x-large;
-    margin-top: 20vh;
-}
 
-.interface #loocursos {
-    padding: 15px;
+.interface {
+    margin-top: 20vh;
 }
 
 header {
@@ -123,11 +120,7 @@ picture#verificado img {
 }
 
 h1 {
-        color: #230D73;
-    margin: 10px;
-}
-h1, h2, p{
-    text-align: justify;
+    color: #230D73;
 }
 
 picture#dinheiro img {
@@ -222,15 +215,6 @@ section.finalizar video {
     max-width: 385px;
 }
 
-#cursos video {
-    padding-top: 0;
-}
-
-section#cursos video {
-    display: inline-block;
-    max-width: 285px;
-}
-
 .video {
     display: block;
     width: 100%;
@@ -265,6 +249,19 @@ img {
     border-radius: 15px;
 }
 
+.interface #loocursos {
+    padding: 15px;
+}
+
+#cursos video {
+    padding-top: 0;
+}
+
+section#cursos video {
+    display: inline-block;
+    max-width: 285px;
+}
+
 ul#cursos video {
     max-width: 285px;
     box-shadow: #230D73 10px 10px 50px 10px;
@@ -277,8 +274,9 @@ ul#cursos {
 }
 
 
-ul#cursos li {
+ul#cursos a {
     margin: 10px;
+    border: solid 1px #230D73;
     border-radius: 15px;
     border: 1px solid gray;
     list-style: none;
@@ -305,9 +303,10 @@ ul#cursos li {
 .finalizar ul {
     columns: 2;
 }
-ul#opcaoespagamento a{
-justify-content: space-around;
-margin: 15px;
+
+ul#opcaoespagamento a {
+    justify-content: space-around;
+    margin: 15px;
 }
 
 #logoPK img {
@@ -316,6 +315,7 @@ margin: 15px;
     max-width: 95px;
     border-radius: 0px;
 }
+
 .logoPK {
     padding: 15px;
     align-items: center;
@@ -334,7 +334,6 @@ ul {
 
 .interface h2 {
     margin-top: 70px;
-    font-size: xx-large;
 }
 
 #sobre ul li {
@@ -348,10 +347,12 @@ ul {
     padding: 0;
     margin: 0;
 }
-.lista a{
+
+.lista a {
     background-color: white;
     color: #230D73;
 }
+
 .lista li {
     flex: 1 0 1;
     padding: 10px;
@@ -368,7 +369,10 @@ section#formularioInscricao {
 section#formularioInscricao li {
     list-style: none;
 }
-.formularioInscricao, li, h2{
+
+.formularioInscricao,
+li,
+h2 {
     margin: auto;
     padding: 15px;
     border-radius: 15px;
@@ -394,9 +398,11 @@ form ul input {
     font-size: small;
     width: 58%;
 }
-input{
+
+input {
     font-size: xx-small;
 }
+
 .validarCertificado form input li {
     max-width: 285px;
 }
