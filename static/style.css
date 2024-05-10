@@ -11,7 +11,7 @@ a {
 }
 
 .interface {
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
 header {
@@ -402,7 +402,13 @@ form ul input {
 input {
     font-size: xx-small;
 }
-
+.validarCertificado{
+    text-align: center;
+    align-items: center;
+}
+.validarCertificado h1, h2{
+    text-align: justify;
+}
 .validarCertificado form input li {
     max-width: 285px;
 }
