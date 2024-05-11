@@ -425,3 +425,9 @@ a {
     align-items: center;
     width: 80%;
 }
+#produtosPng{
+    display: block;
+    margin: auto;
+    float: left;
+    width: 25%;
+}
