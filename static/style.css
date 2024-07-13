@@ -27,6 +27,7 @@ header nav ul li {
 }
 
 body {
+    background-color: #230d731a;
     margin: auto;
 }
 
@@ -120,6 +121,7 @@ picture#verificado img {
 }
 
 h1 {
+    max-width: 80%;
     color: #230D73;
 }
 
