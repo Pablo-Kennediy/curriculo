@@ -2,6 +2,7 @@
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    color: #230D73;
 }
 
 a {
@@ -11,12 +12,14 @@ a {
 }
 
 .interface {
-    margin-top: 10vh;
+    padding: 30px;
+    padding-top: 30vh;
+    background-color: white;
 }
 
 header {
     position: relative;
-    background-color: #230D73;
+    background-color: black;
     color: white;
     justify-content: space-around;
 }
@@ -27,7 +30,7 @@ header nav ul li {
 }
 
 body {
-    background-color: #230d731a;
+    background-color: black;
     margin: auto;
 }
 
@@ -39,7 +42,6 @@ button {
     margin: auto;
     padding: 5px;
     margin-bottom: 50px;
-    /* background-color: #230d736b; */
     color: white;
     border-radius: 15px;
     text-align: end;
@@ -131,6 +133,8 @@ picture#dinheiro img {
 
 nav {
     display: flex;
+    position: fixed;
+    background-color: black;
     width: 100%;
     box-shadow: #230D73 10px 10px 50px 10px;
 }
@@ -166,7 +170,6 @@ nav ul {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #230D73;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -221,7 +224,6 @@ section.finalizar video {
     display: block;
     width: 100%;
     height: 100vh;
-    background-color: #230D73;
 }
 
 #btnWhatsapp {
@@ -251,12 +253,9 @@ img {
     border-radius: 15px;
 }
 
-.interface #loocursos {
-    padding: 15px;
-}
-
 #cursos video {
     padding-top: 0;
+    border-radius: 25px;
 }
 
 section#cursos video {
@@ -266,7 +265,6 @@ section#cursos video {
 
 ul#cursos video {
     max-width: 285px;
-    box-shadow: #230D73 10px 10px 50px 10px;
 }
 
 ul#cursos {
@@ -278,13 +276,9 @@ ul#cursos {
 
 ul#cursos a {
     margin: 10px;
-    border: solid 1px #230D73;
-    border-radius: 15px;
-    border: 1px solid gray;
     list-style: none;
     font-size: medium;
-    background-color: #230d739c;
-    color: white;
+    color: #230D73;
 }
 
 .finalizar {
@@ -326,16 +320,10 @@ ul#opcaoespagamento a {
 ul {
     list-style: none;
     text-align: center;
-    background-color: #230D73;
-    box-shadow: #230D73 10px 10px 50px 10px;
     color: white;
     border-radius: 25px;
     margin: 15px;
     padding: 10px;
-}
-
-.interface h2 {
-    margin-top: 70px;
 }
 
 #sobre ul {
@@ -416,13 +404,6 @@ input {
 }
 .validarCertificado form input li {
     max-width: 285px;
-}
-
-.ulMenu ul,
-li,
-a {
-    background-color: #230D73;
-    color: white;
 }
 
 .logo {
