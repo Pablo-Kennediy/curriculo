@@ -18,10 +18,9 @@ a {
 }
 
 header {
-    position: relative;
+    display: block;
     background-color: black;
     color: white;
-    justify-content: space-around;
 }
 
 header nav ul li {
@@ -153,13 +152,14 @@ nav {
     }
 
     img#menu {
-        display: block;
         max-width: 35px;
-        float: left;
         margin: auto;
     }
 }
-
+ img#menu {
+    display: block;
+    max-width: 50px;
+}
 @media (min-width: 500px) {
     nav img#menu {
         display: none;
@@ -236,7 +236,9 @@ section.finalizar video {
     margin: auto;
     max-width: 400px;
 }
-
+#apps{
+    padding: 15px;
+}
 #apps img {
     display: block;
     align-items: center;
@@ -245,7 +247,7 @@ section.finalizar video {
     max-width: 202px;
 }
 
-section#apps ul li {
+#apps ul li {
     display: inline-block;
 }
 
@@ -305,16 +307,15 @@ ul#opcaoespagamento a {
     margin: 15px;
 }
 
-#logoPK img {
+img#logoPK{
     display: block;
-    margin: auto;
-    max-width: 95px;
-    border-radius: 0px;
+    width: 45px;
 }
-
 .logoPK {
     padding: 15px;
     align-items: center;
+    float: left;
+    margin-top: -50px;
 }
 
 ul {
@@ -409,7 +410,7 @@ input {
 .logo {
     justify-content: center;
     align-items: center;
-    width: 80%;
+    max-width: 295px;
 }
 #produtosPng{
     display: block;
@@ -419,3 +420,22 @@ input {
 .box{
     text-align: justify;
 }
+/* Estilo padrão para o vídeo */
+#video-topLogoPK video {
+    width: 100%; /* Ocupa toda a largura do container */
+    height: auto; /* Mantém a proporção do vídeo */
+  }
+  
+  /* Esconde o vídeo em telas maiores que 500px */
+  @media (min-width: 500px) {
+    #video-topLogoPK video {
+      display: none;
+    }
+  }
+  
+  /* Mostra o vídeo em telas menores que 500px */
+  @media (max-width: 499px) {
+    #video-topLogoPK video {
+      display: block;
+    }
+  }
