@@ -154,6 +154,7 @@ nav {
     img#menu {
         max-width: 35px;
         margin: auto;
+        justify-content: center;
     }
 }
  img#menu {
