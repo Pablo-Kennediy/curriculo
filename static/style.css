@@ -448,3 +448,6 @@ input {
     height: 100vh; /* Define a altura do body como 100% da viewport */
     margin: 0;
   }
+  .ulMenu a{
+    color: white;
+  }
