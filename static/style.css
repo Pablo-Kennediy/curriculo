@@ -451,3 +451,7 @@ input {
   .ulMenu a{
     color: white;
   }
+  .produtosPng{
+  margin: auto;  
+  margin-bottom: 50px;
+  }

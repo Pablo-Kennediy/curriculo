@@ -14,14 +14,15 @@
 <body>
   <header>
     <nav>
-      <a href="menu.html">
-        <picture>
-          <img id="menu" src="../static/menu.png" alt="">
-        </picture>
-      </a>
-      <a id="logoPK" href="../index.html">
-        <img src="../static/logoPK.png" alt="">
-      </a>
+      <div class="flex">
+        <div style="padding: 10px;">
+          <a href="menu.html">
+            <picture>
+              <img id="menu" src="../static/menu.png" alt="">
+            </picture>
+          </a>
+        </div>
+          </div>
       <ul class="minhaDivNavApareceESome">
         <li>
           <a href="../templates/cursos.html">
@@ -55,9 +56,13 @@
         </li>
       </ul>
     </nav>
-  </header>
-  <div class="interface">
-    <section id="ranking" class="ranking">
+       <div class="interface">
+      </header>
+          <section id="ranking" class="ranking">
+            <picture id="video-topLogoPK" class="mp4">
+              <video muted autoplay loop style="video::internal-media-controls{display: none;}" src="../static/topLogoPK.mp4">
+              </video>
+            </picture>
       <h2>
         Compare seu progresso com outros participantes
       </h2>
