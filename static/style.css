@@ -2,9 +2,18 @@
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    color: #230D73;
 }
-
+h1 {
+    max-width: 80%;
+    color: white;
+}
+h2{
+    color: white;
+}
+p {
+    max-width: 80%;
+    color: white;
+}
 a {
     border-radius: 15px;
     margin: 15px;
@@ -121,10 +130,7 @@ picture#verificado img {
     max-width: 35px;
 }
 
-h1 {
-    max-width: 80%;
-    color: #230D73;
-}
+
 
 picture#dinheiro img {
     max-width: 35px;
@@ -137,7 +143,10 @@ nav {
     width: 100%;
     box-shadow: #230D73 10px 10px 50px 10px;
 }
-
+.minhaDivNavApareceESomeLogoPK{
+    display: block;
+    width: 20vh;
+}
 @media (max-width: 500px) {
     .lista li {
         flex: 1 0 50%;
@@ -150,7 +159,9 @@ nav {
     .minhaDivNavApareceESome {
         display: none;
     }
-
+.minhaDivNavApareceESomeLogoPK{
+    display: none;
+}
     img#menu {
         max-width: 35px;
         margin: auto;
@@ -240,6 +251,7 @@ section.finalizar video {
 #apps{
     padding: 15px;
 }
+
 #apps img {
     display: block;
     align-items: center;
