@@ -345,8 +345,16 @@ ul {
     background-color: white;
     box-shadow: 0px 0px 0px;
     border-radius: 1px solid gray;
-}
-
+    }
+    #sobre p, li{
+        color: #230D73;
+    }
+    #validarCertificado h1, p, li{
+        color: #230D73;
+    }
+    #formularioInscricao h1, h2, p, li{
+        color: #230D73;
+    }
 .lista {
     display: flex;
     flex-wrap: wrap;
