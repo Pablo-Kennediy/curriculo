@@ -3,16 +3,15 @@
     margin: 0;
     padding: 0;
 }
+
 h1 {
-    max-width: 80%;
-    color: white;
+    font-size: 3rem;
 }
 h2{
-    color: white;
+    font-size: 2rem;
 }
-p {
-    max-width: 80%;
-    color: white;
+h1, h2, p, li{
+    color: #230D73;
 }
 a {
     border-radius: 15px;
@@ -30,7 +29,6 @@ a {
 }
 #sectionHallDaFama h1, h2, p, li{
     color: white;
-
 }
 .interface {
     padding: 30px;
@@ -309,7 +307,6 @@ ul#cursos a {
 }
 
 .finalizar {
-    max-width: 900px;
     margin: 10vh auto;
     padding: 15px;
     background-color: white;
